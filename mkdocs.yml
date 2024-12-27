@@ -1,5 +1,5 @@
 site_name: Mehdi KADAR
-site_url: https://mydomain.org/mysite
+site_url: https://fixeasy.github.io/mkdocs-demo/
 
 nav:
   - Accueil: index.md
