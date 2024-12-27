@@ -72,7 +72,5 @@ extra_css:
 
 plugins:
   - search
-  - mermaid2:
-      version: 10.0.2  # Spécifiez la version souhaitée de Mermaid.js
 
 copyright: "Copyright © 2025 Mehdi Kadar"
