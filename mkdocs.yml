@@ -69,6 +69,7 @@ extra:
 
 extra_css:
   - assets/css/style.css
+  - assets/css/index.css
 
 plugins:
   - search

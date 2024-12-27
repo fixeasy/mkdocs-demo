@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permet aux cartes de passer à la ligne */
+    gap: 20px; /* Espace entre les cartes */
+    margin-top: 30px;
+}
+
+.skill-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card img {
+    width: 60px; /* Largeur d'image fixe */
+}
+
+.skill-card:hover {
+    transform: scale(1.05); /* Légère augmentation lors du survol */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Ombre plus marquée */
+}
+
+/* Styles responsives */
+@media (max-width: 600px) {
+    .profile-card {
+        flex-direction: column; /* Empile les éléments en colonne sur mobile */
+        align-items: center; /* Centre les éléments */
+        text-align: center; /* Centre le texte */
+    }
+
+    .skills-container {
+        justify-content: space-around; /* Espacement autour des cartes */
+        padding: 10px; /* Ajout de padding pour un meilleur espacement */
+    }
+
+    .skill-card {
+        flex-basis: calc(50% - 10px); /* Deux cartes par ligne sur mobile */
+        margin-bottom: 15px; /* Espace entre les lignes */
+        text-align: center; /* Centre le contenu des cartes */
+    }
+}
