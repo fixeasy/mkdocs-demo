@@ -144,11 +144,11 @@
     <div class="links">
         <h2>Liens Utiles</h2>
         <ul>
-            <li><a href="about.md">À propos de moi</a></li>
-            <li><a href="skills/index.md">Mes compétences</a></li>
-            <li><a href="projects/">Mes projets</a></li>
-            <li><a href="cv.md">Mon CV</a></li>
-            <li><a href="blog/">Articles de blog</a></li>
+            <li><a href="about">À propos de moi</a></li>
+            <li><a href="skills">Mes compétences</a></li>
+            <li><a href="projects/sncf/eul/project">Mes projets</a></li>
+            <li><a href="cv">Mon CV</a></li>
+            <li><a href="blog/thoughts-devops/">Articles de blog</a></li>
         </ul>
     </div>
 
