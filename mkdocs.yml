@@ -1,0 +1,78 @@
+site_name: Mehdi KADAR
+site_url: https://mydomain.org/mysite
+
+nav:
+  - Accueil: index.md
+  - À propos: about.md
+  - Compétences: skills/index.md
+  - Projets:
+      - Sncf:
+          - Projet EUL: 
+            - Contexte: projects/sncf/eul/project.md
+            - Contributions: projects/sncf/eul/contributions.md
+      - Enedis:
+          - Projet Placide: 
+            - Contexte: projects/enedis/placide/project.md
+            - Contributions: projects/enedis/placide/contributions.md
+      - Alstom:
+          - Projet Software Factory: 
+            - Contexte: projects/alstom/softwarefactory/project.md
+            - Contributions: projects/alstom/softwarefactory/contributions.md
+  - CV: cv.md
+  - Blog:
+      - Mes réflexions DevOps: blog/thoughts-devops.md
+      - Guide Kubernetes: blog/kubernetes-guide.md
+      - Optimisation CI/CD: blog/ci-cd-optimization.md
+  - Ressources: 
+      - Outils favoris: resources/tools.md
+      - Liens utiles: resources/links.md
+  - Contact: contact.md
+
+
+theme:
+  name: material
+  language: fr
+  palette:
+    # - scheme: slate
+    #   primary: black
+    #   accent: black
+    #   toggle:
+    #     name: Switch to light mode
+    #     icon: material/toggle-switch-off-outline
+    - scheme: default
+      primary: black
+      accent: black
+      # toggle:
+      #   name: Switch to dark mode
+      #   icon: material/toggle-switch
+  
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+  
+  features:
+    - navigation.footer
+    - navigation.tabs
+    - navigation.sections
+    # - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.annotation
+    - content.code.copy
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/fixeasy
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/mehdi-kadar-9109a0155/
+
+extra_css:
+  - assets/css/style.css
+
+plugins:
+  - search
+  - mermaid2:
+      version: 10.0.2  # Spécifiez la version souhaitée de Mermaid.js
+
+copyright: "Copyright © 2025 Mehdi Kadar"
